@@ -3,10 +3,16 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.22",
+		"@fortawesome/free-brands-svg-icons": "^5.10.2",
+		"@fortawesome/free-solid-svg-icons": "^5.10.2",
+		"@fortawesome/react-fontawesome": "^0.1.4",
+		"chroma-js": "^2.0.6",
 		"gh-pages": "^2.1.1",
 		"react": "^16.9.0",
 		"react-dom": "^16.9.0",
-		"react-scripts": "3.1.1"
+		"react-scripts": "3.1.1",
+		"styled-components": "^4.3.2"
 	},
 	"homepage": "https://mxoliver.github.io",
 	"scripts": {
@@ -31,5 +37,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"@fortawesome/fontawesome-free": "^5.10.2"
 	}
 }
