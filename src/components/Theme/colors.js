@@ -1,5 +1,16 @@
 import * as chroma from "chroma-js";
 
+export const tags = {
+	purpleLight: chroma(234, 230, 255),
+	purple: chroma(64, 50, 148),
+	blueLight: chroma(222, 235, 255),
+	blue: chroma(7, 71, 166),
+	redLight: chroma(255, 235, 230),
+	red: chroma(191, 38, 0),
+	greenLight: chroma(227, 252, 239),
+	green: chroma(0, 102, 68)
+};
+
 export const almond = {
 	primary: chroma("#5075BF"),
 	secondary: chroma("#D88E04"),
