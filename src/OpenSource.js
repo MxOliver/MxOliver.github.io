@@ -3,22 +3,6 @@ import FlexRow from "./components/Layout/Row";
 import FlexColumn from "./components/Layout/Column";
 import { H2, Text, Link } from "./components/Typography/Body";
 import Tag from "./components/Layout/Tag";
-import { tags } from "./components/Theme/colors";
-
-const connections = [
-	{
-		fromTarget: "1",
-		toTarget: "2",
-		thickness: "small",
-		color: tags.purpleLight
-	},
-	{
-		fromTarget: "2",
-		toTarget: "3",
-		thickness: "small",
-		color: tags.purpleLight
-	}
-];
 
 const OpenSource = () => {
 	return (
